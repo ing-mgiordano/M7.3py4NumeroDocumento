@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumDoc</title>
+</head>
+<body align="center">
+    <h1>Numero de documento</h1>
+
+    <div width="400px" height="800px" style="border: 2px solid rgb(10, 165, 36)">
+        <h3>Ingrese su numero de documento*</h3>
+        <br>
+        <input type="number" id="doc-num-input" placeholder="DNI">
+        <br>
+        <h3>Ingrese la letra del documento*</h3>
+        <br>
+        <input type="text" id="doc-letter-input" placeholder="Letra en Mayuscula">
+        <br><br>
+        <button onclick="checkDNILetter()">Check</button>
+        <br>
+        <p id="result"></p>
+        <br>
+        <h6 align="left">*campos obligatorios</h6>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
